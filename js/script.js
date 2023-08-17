@@ -21,11 +21,6 @@
  *
  */
  
- $("document").ready(function() {
-    var audio = new Audio('./assets/mp3/song.mp3');
-	var playPromise = audio.play();
-	console.log(playPromise);
-});
 
  $(document).on('click', function(){
     document.getElementById("my_audio").play();
